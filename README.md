@@ -84,8 +84,27 @@ GET /recommend?movie=Inception
     "Avatar"
   ]
 }
-# Technologies Used
+
+### Technologies Used
 Python 3.x
 Flask
 Pandas
 REST API Architecture
+
+:
+
+### Project Structure 
+AI-RECOMMENDATION-ENGINE/
+│
+├── app.py
+├── requirements.txt
+├── README.md
+│
+├── data/
+│   └── movies.csv
+│
+└── model/
+    └── recommender.py
+### How to Run
+pip install -r requirements.txt
+python app.py
