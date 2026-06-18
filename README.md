@@ -91,20 +91,6 @@ Flask
 Pandas
 REST API Architecture
 
-:
-
-### Project Structure 
-AI-RECOMMENDATION-ENGINE/
-│
-├── app.py
-├── requirements.txt
-├── README.md
-│
-├── data/
-│   └── movies.csv
-│
-└── model/
-    └── recommender.py
 ### How to Run
 pip install -r requirements.txt
 python app.py
