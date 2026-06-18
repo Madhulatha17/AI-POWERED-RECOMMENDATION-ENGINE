@@ -71,11 +71,7 @@ AI Recommendation Engine API is running
 GET /recommend?movie=Inception
 
 
----
-
-### Sample API Response
-
-```json
+ ### Sample API Response
 {
   "input_movie": "Inception",
   "recommendations": [
@@ -94,3 +90,5 @@ REST API Architecture
 ### How to Run
 pip install -r requirements.txt
 python app.py
+
+
