@@ -58,20 +58,16 @@ The dataset contains basic movie information used for generating recommendations
 
 GET /
 
-
 **Response:**
 
 AI Recommendation Engine API is running
-
-
----
 
 ###  Recommendation Endpoint
 
 GET /recommend?movie=Inception
 
-
  ### Sample API Response
+
 {
   "input_movie": "Inception",
   "recommendations": [
